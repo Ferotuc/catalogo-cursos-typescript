@@ -1,0 +1,20 @@
+{
+  "name": "catalogo-cursos-typescript",
+  "version": "1.0.0",
+  "description": "Aplicación pequeña en TypeScript para consultar y resumir un catálogo de cursos.",
+  "main": "dist/index.js",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "build": "tsc",
+    "start": "node --enable-source-maps dist/index.js"
+  },
+  "keywords": [
+    "typescript",
+    "catalogo",
+    "cursos"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "5.9.2"
+  }
+}
